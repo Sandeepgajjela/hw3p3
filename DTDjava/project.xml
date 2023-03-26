@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE projects [<!ELEMENT shops (shop+)>
+
+<!ELEMENT project (name, state, city) >
+
+<!ELEMENT name (#PCDATA) >
+
+<!ELEMENT state (#PCDATA) >
+
+<!ELEMENT city (#PCDATA) >
+
+<!ATTLIST project id CDATA #REQUIRED >]>
+
+<projects>
+
+  <projects id="1">
+
+    <name>hilo</name>
+
+    <state>florida</state>
+
+    <city>Tallahassee</city>
+
+  </projects>
+
+  <project id="2">
+
+    <name>hilo</name>
+
+    <state>njc</state>
+
+    <city>jersey</city>
+    
+  </project>
+
+</projects>
+
+
+
